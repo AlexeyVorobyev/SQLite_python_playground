@@ -1,0 +1,1 @@
+SELECT sector_id FROM fact_parameters

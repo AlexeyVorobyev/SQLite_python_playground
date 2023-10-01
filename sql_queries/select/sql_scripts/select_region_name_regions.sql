@@ -1,0 +1,1 @@
+SELECT region_name FROM regions

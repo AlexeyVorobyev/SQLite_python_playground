@@ -1,0 +1,1 @@
+SELECT region_id FROM fact_parameters

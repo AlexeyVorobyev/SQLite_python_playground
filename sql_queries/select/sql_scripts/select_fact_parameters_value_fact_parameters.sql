@@ -1,0 +1,1 @@
+SELECT fact_parameters_value FROM fact_parameters

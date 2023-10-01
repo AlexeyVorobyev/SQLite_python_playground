@@ -1,0 +1,1 @@
+SELECT measure_id FROM parameters

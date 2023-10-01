@@ -1,0 +1,1 @@
+SELECT parameter_name FROM parameters

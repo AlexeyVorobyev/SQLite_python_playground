@@ -1,0 +1,1 @@
+SELECT sector_descript FROM sectors
