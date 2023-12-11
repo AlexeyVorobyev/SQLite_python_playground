@@ -1,4 +1,4 @@
-from utils.sql_request_to_string import sql_request_to_string
+from init_utils.sql_request_to_string import sql_request_to_string
 from init_scripts.tables_insert.classes.sqlinsertconfig import SqlInsertConfig
 
 

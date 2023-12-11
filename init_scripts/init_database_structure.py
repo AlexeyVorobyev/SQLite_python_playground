@@ -1,5 +1,5 @@
 from pathlib import Path
-from utils.connection import sql_connection
+from init_utils.connection import sql_connection
 
 
 def sql_tables(con, sql_file_name: str, prefix: str):

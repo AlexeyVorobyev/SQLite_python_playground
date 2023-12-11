@@ -1,8 +1,8 @@
 import random
 from pathlib import Path
-from utils.get_tables_names import get_tables_names
-from utils.get_table_columns_names import get_table_columns_names
-from utils.create_file import create_file
+from init_utils.get_tables_names import get_tables_names
+from init_utils.get_table_columns_names import get_table_columns_names
+from init_utils.create_file import create_file
 
 
 def construct_select_sql_request(table: str,column:str ) -> str:

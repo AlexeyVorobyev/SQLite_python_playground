@@ -2,7 +2,7 @@ from faker import Faker
 from pathlib import Path
 from init_scripts.tables_insert.classes.sqlinsertconfig import SqlInsertConfig
 from init_scripts.tables_insert.construct_insert_sql_request import construct_insert_sql_request
-from utils.create_file import create_file
+from init_utils.create_file import create_file
 import random
 
 fake = Faker()
