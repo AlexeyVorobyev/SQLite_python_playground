@@ -49,6 +49,6 @@ class RegionRepository:
 
     def get_by_id(self, id_arg: int):
         for item in self.collection:
-            if item.id == id_arg:
+            if str(item.id) == str(id_arg):
                 return item
-        return 'item with this id not found'
+        return None
