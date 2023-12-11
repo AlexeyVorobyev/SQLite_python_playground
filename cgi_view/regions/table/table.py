@@ -75,6 +75,7 @@ class RegionsTableView:
                         </tr>
                         {self.values}
                     </table>
+                    <button onclick="window.location=`/regions/form_add.html`;">Добавить запись</>
                 </body>
             </html>
         '''

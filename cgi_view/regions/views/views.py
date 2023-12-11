@@ -1,5 +1,4 @@
 from pathlib import Path
-from cgi_models.regions.model import RegionModelBuilder
 from cgi_models.regions.model import RegionModel
 from cgi_utils.create_file import create_file
 
@@ -11,7 +10,6 @@ class RegionsViewView:
         self.render()
 
     def __construct_html(self):
-        print(self.region_id)
         region: RegionModel = self.regions_module.regions_service.get_by_id(self.region_id)
 
         pattern = f'''
@@ -26,6 +24,11 @@ class RegionsViewView:
                     <p>id: {region.id}</>
                     <p>Название: {region.region_name}</>
                     <p>Описание: {region.region_descript}</>
+                    <button onclick="window.location=`/regions/forms_edit/{region.id}.html`;">Изменить запись</>
+                    <form action="/cgi-bin/regions/delete.py">
+                        <input type='text' name='region_id' value={str(region.id)} style="display:none">
+                        <button>Удалить запись</>
+                    </form>
                 </body>
             </html>
         '''
