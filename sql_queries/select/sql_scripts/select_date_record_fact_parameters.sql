@@ -1,0 +1,1 @@
+SELECT date_record FROM fact_parameters

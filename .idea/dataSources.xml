@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="economy" uuid="6509a275-a28b-491b-8314-6aeaf5aa00ae">
+    <data-source source="LOCAL" name="economy" uuid="594e5797-8a05-481a-987e-9dda69b45051">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\miste\PycharmProjects\lab14Schian\databases\economy.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Programming\Python\SQLite_python_playground\databases\economy.db</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+      </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
       <libraries>
         <library>
